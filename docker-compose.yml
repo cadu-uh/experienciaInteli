@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  apiinteliweb:
+    image: ${DOCKER_REGISTRY-}apiinteliweb
+    build:
+      context: .
+      dockerfile: ApiInteliWeb/Dockerfile
+    
