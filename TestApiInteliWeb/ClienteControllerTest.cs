@@ -36,9 +36,9 @@ namespace TestApiInteliWeb
             _mock = new Mock<Cliente>();
             Cliente _MoqCli = new Cliente()
             {
-                firstName = "Jose Carlos",
-                surName = "Macoratti",
-                age = 45,            
+                FirstName = "Jose Carlos",
+                SurName = "Macoratti",
+                Age = 45,            
             };
 
             var result = _controller.PostCliente(_MoqCli);
@@ -51,11 +51,11 @@ namespace TestApiInteliWeb
             _mock = new Mock<Cliente>();
             Cliente _MoqCli = new Cliente()
             {             
-                firstName = "Jose Carlos",
-                surName = "Macoratti",
-                age = 45,
+                FirstName = "Jose Carlos",
+                SurName = "Macoratti",
+                Age = 45,
             };
-            var result = _controller.EditCLiente(_MoqCli);
+            var result = _controller.EditCLiente(_MoqCli.Id,_MoqCli);
             Assert.IsType<NoContentResult>(result);
         }
 
