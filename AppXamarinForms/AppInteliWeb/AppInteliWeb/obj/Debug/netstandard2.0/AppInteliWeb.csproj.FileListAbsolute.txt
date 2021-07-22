@@ -1,0 +1,14 @@
+C:\Users\carlo\source\repos\AppInteliWeb\AppInteliWeb\AppInteliWeb\bin\Debug\netstandard2.0\AppInteliWeb.deps.json
+C:\Users\carlo\source\repos\AppInteliWeb\AppInteliWeb\AppInteliWeb\bin\Debug\netstandard2.0\AppInteliWeb.dll
+C:\Users\carlo\source\repos\AppInteliWeb\AppInteliWeb\AppInteliWeb\bin\Debug\netstandard2.0\ref\AppInteliWeb.dll
+C:\Users\carlo\source\repos\AppInteliWeb\AppInteliWeb\AppInteliWeb\bin\Debug\netstandard2.0\AppInteliWeb.pdb
+C:\Users\carlo\source\repos\AppInteliWeb\AppInteliWeb\AppInteliWeb\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\carlo\source\repos\AppInteliWeb\AppInteliWeb\AppInteliWeb\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\carlo\source\repos\AppInteliWeb\AppInteliWeb\AppInteliWeb\obj\Debug\netstandard2.0\AppInteliWeb.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\AppInteliWeb\AppInteliWeb\AppInteliWeb\obj\Debug\netstandard2.0\AppInteliWeb.AssemblyInfo.cs
+C:\Users\carlo\source\repos\AppInteliWeb\AppInteliWeb\AppInteliWeb\obj\Debug\netstandard2.0\AppInteliWeb.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\AppInteliWeb\AppInteliWeb\AppInteliWeb\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\carlo\source\repos\AppInteliWeb\AppInteliWeb\AppInteliWeb\obj\Debug\netstandard2.0\AppInteliWeb.dll
+C:\Users\carlo\source\repos\AppInteliWeb\AppInteliWeb\AppInteliWeb\obj\Debug\netstandard2.0\ref\AppInteliWeb.dll
+C:\Users\carlo\source\repos\AppInteliWeb\AppInteliWeb\AppInteliWeb\obj\Debug\netstandard2.0\AppInteliWeb.pdb
+C:\Users\carlo\source\repos\AppInteliWeb\AppInteliWeb\AppInteliWeb\obj\Debug\netstandard2.0\AppInteliWeb.csproj.AssemblyReference.cache

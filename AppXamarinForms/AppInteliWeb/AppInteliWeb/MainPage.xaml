@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppInteliWeb.MainPage">
+    <StackLayout>
+        <Frame BackgroundColor="#1C1C1C" Padding="24" CornerRadius="0">
+            <Label Text="Bem Vindo Usuario" HorizontalTextAlignment="Center" TextColor="White" FontSize="32"/>
+        </Frame>
+        <ScrollView HeightRequest="2000">
+            <StackLayout>
+                <Label x:Name="lblId" Text="ID do Usuario" FontSize="Medium" Padding="5,5,3,3"></Label>
+                <Entry x:Name="txtId" Placeholder="0000000-0000-0000-000000" IsEnabled="False"></Entry>
+                <Label x:Name="lblFirstName" Text="Nome do Usuario" FontSize="Medium" Padding="5,5,3,3"/>
+                <Entry x:Name="txtFirstName" Placeholder="Insira seu Nome*" IsTextPredictionEnabled="False"/>
+                <Label x:Name="lblSurName" Text="Sobrenome" FontSize="Medium" Padding="5,5,3,3"/>
+                <Entry x:Name="txtSurName" Placeholder="Insira seu Sobrenome" IsTextPredictionEnabled="False" />
+                <Label x:Name="lblAge" Text="Idade" FontSize="Medium" Padding="5,5,3,3"/>
+                <Entry x:Name="txtAge" Placeholder="Insira sua Idade*" Keyboard="Numeric"/>
+                <Label x:Name="lblData" Text="Data" FontSize="Medium" Padding="5,5,3,3"></Label>
+                <Entry x:Name="txtData" Placeholder="00/00/000 00:00 hr" IsEnabled="False"></Entry>
+                <StackLayout Orientation="Horizontal"  VerticalOptions="Center">
+                    <Button x:Name="btnInserir" Text="Inserir" HorizontalOptions="FillAndExpand" BackgroundColor="#228B22" TextColor="White" Clicked="btnInserir_Clicked"></Button>
+                    <Button x:Name="btnLimpar" Text="Limpar Lista" HorizontalOptions="FillAndExpand" BackgroundColor="	#87CEEB" TextColor="White" Clicked="btnLimpar_Clicked"></Button>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Padding="10,5,10,0">
+                    <ListView x:Name="lvCliente" ItemSelected="lvCliente_ItemSelected" BackgroundColor="White" SeparatorColor="Blue">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <ViewCell.ContextActions>
+                                        <MenuItem Clicked="OnAtualizar" CommandParameter="{Binding .}" Text="Atualizar" />
+                                        <MenuItem Clicked="OnDeletar" CommandParameter="{Binding .}" Text="Deletar" IsDestructive="True" />
+                                    </ViewCell.ContextActions>
+                                    <StackLayout Padding="15,10" Orientation="Horizontal">
+                                        <Label Text="{Binding FirstName}" FontSize="Body" TextColor="Black" HorizontalOptions="StartAndExpand"/>
+                                        <Label Text="{Binding Surname}" TextColor="Black" HorizontalOptions="Center"/>
+                                        <Label Text="{Binding Age}" FontSize="Body" TextColor="Black" HorizontalOptions="End"/>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
