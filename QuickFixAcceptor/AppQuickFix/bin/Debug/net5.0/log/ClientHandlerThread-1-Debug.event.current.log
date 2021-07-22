@@ -1,0 +1,52 @@
+20210720-19:53:25.174 : connected
+20210720-19:54:00.281 : Error on Session 'FIX.4.4:SIMPLE->CLIENT1': System.ArgumentNullException: Value cannot be null. (Parameter 'logger')
+   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, EventId eventId, Exception exception, String message, Object[] args)
+   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, String message, Object[] args)
+   at Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(ILogger logger, String message, Object[] args)
+   at AppQuickFix.MyAplicationQuickFix.ToAdmin(Message message, SessionID sessionID)
+   at QuickFix.Session.SendRaw(Message message, Int32 seqNum)
+   at QuickFix.Session.GenerateLogon(Message otherLogon)
+   at QuickFix.Session.NextLogon(Message logon)
+   at QuickFix.Session.Next(MessageBuilder msgBuilder)
+   at QuickFix.Session.NextMessage(String msgStr)
+   at QuickFix.Session.Next(String msgStr)
+   at QuickFix.SocketReader.OnMessageFoundInternal(String msg)
+20210720-19:54:00.283 : shutdown requested: Disconnected
+20210720-19:54:00.297 : shutdown
+20210720-20:24:10.080 : connected
+20210720-20:25:22.257 : shutdown requested: Disconnected
+20210720-20:25:22.270 : shutdown
+20210720-20:42:05.643 : connected
+20210720-20:42:21.276 : SocketReader Error: Socket exception (127.0.0.1:55129): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210720-20:42:21.276 : shutdown requested: Disconnected
+20210720-20:42:21.283 : shutdown requested: Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210720-20:42:21.283 : shutdown
+20210721-18:51:18.784 : connected
+20210721-18:51:22.279 : SocketReader Error: Socket exception (127.0.0.1:51209): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210721-18:51:22.279 : shutdown requested: Disconnected
+20210721-18:51:22.292 : shutdown requested: Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210721-18:51:22.292 : shutdown
+20210721-18:54:39.207 : connected
+20210721-18:54:44.512 : SocketReader Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at QuickFix.SocketReader.HandleNewSession(String msg)
+   at QuickFix.SocketReader.OnMessageFoundInternal(String msg)
+   at QuickFix.SocketReader.ProcessStream()
+   at QuickFix.SocketReader.Read()
+20210721-18:54:44.525 : shutdown requested: Object reference not set to an instance of an object.
+20210721-18:54:44.525 : shutdown
+20210721-21:04:32.207 : connected
+20210721-21:04:34.766 : SocketReader Error: Socket exception (127.0.0.1:50075): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210721-21:04:34.766 : shutdown requested: Disconnected
+20210721-21:04:34.772 : shutdown requested: Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210721-21:04:34.772 : shutdown
+20210722-15:20:54.016 : connected
+20210722-15:20:54.063 : ERROR: Disconnecting; received message for unknown session: 8=FIX.4.29=6435=A49=CLIENT156=SIMPLE34=152=20210722-15:20:5498=0108=3010=235
+20210722-15:20:54.064 : SocketReader Error: System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.<ThrowIfDisposed>g__ThrowObjectDisposedException|63_0()
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at QuickFix.SocketReader.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketReader.Read()
+20210722-15:20:54.064 : shutdown requested: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+20210722-15:20:54.064 : shutdown

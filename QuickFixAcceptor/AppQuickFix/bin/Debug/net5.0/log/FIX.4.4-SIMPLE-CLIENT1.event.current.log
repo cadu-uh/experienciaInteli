@@ -1,0 +1,439 @@
+20210720-13:50:29.213 : Created session
+20210720-15:32:20.511 : Created session
+20210720-19:51:46.486 : Created session
+20210720-19:52:18.550 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 52211666 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:60363
+20210720-19:52:18.550 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210720-19:52:18.612 : Session reset: ResetOnLogon
+20210720-19:52:36.875 : Created session
+20210720-19:52:56.434 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:60365
+20210720-19:52:56.434 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210720-19:52:56.492 : Session reset: ResetOnLogon
+20210720-19:53:04.235 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:60365): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210720-19:53:04.240 : Session reset: ResetOnDisconnect
+20210720-19:53:25.296 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 51361691 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:60366
+20210720-19:53:25.296 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210720-19:53:25.308 : Session reset: ResetOnLogon
+20210720-19:53:51.115 : Received logon
+20210720-19:54:00.283 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Received msg type '0' when not logged on
+20210720-19:54:00.296 : Session reset: ResetOnDisconnect
+20210720-19:57:31.238 : Created session
+20210720-19:58:05.938 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 48717705 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:51852
+20210720-19:58:05.938 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210720-19:58:05.984 : Session reset: ResetOnLogon
+20210720-19:58:05.986 : Received logon
+20210720-19:58:06.002 : Responding to logon request
+20210720-19:58:51.399 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:51852): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210720-19:58:51.405 : Session reset: ResetOnDisconnect
+20210720-19:59:13.151 : Created session
+20210720-19:59:20.364 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:51854
+20210720-19:59:20.365 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210720-19:59:20.419 : Session reset: ResetOnLogon
+20210720-20:00:10.214 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Received msg type '0' when not logged on
+20210720-20:00:10.226 : Session reset: ResetOnDisconnect
+20210720-20:00:10.227 : Session FIX.4.4:SIMPLE->CLIENT1 already disconnected: Received msg type '0' when not logged on
+20210720-20:00:10.232 : Session reset: ResetOnDisconnect
+20210720-20:19:11.483 : Created session
+20210720-20:19:18.859 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:62199
+20210720-20:19:18.859 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210720-20:19:18.918 : Session reset: ResetOnLogon
+20210720-20:19:18.926 : Received logon
+20210720-20:19:18.933 : Responding to logon request
+20210720-20:19:18.934 : MsgSeqNum too high, expecting 1 but received 7
+20210720-20:19:18.935 : Sent ResendRequest FROM: 1 TO: 0
+20210720-20:19:39.043 : MsgSeqNum too high, expecting 1 but received 8
+20210720-20:19:39.043 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20210720-20:19:47.636 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:62199): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210720-20:19:47.646 : Session reset: ResetOnDisconnect
+20210720-20:20:48.238 : Created session
+20210720-20:20:53.810 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:62203
+20210720-20:20:53.810 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210720-20:20:53.872 : Session reset: ResetOnLogon
+20210720-20:20:53.880 : Received logon
+20210720-20:20:53.886 : Responding to logon request
+20210720-20:20:53.887 : MsgSeqNum too high, expecting 1 but received 9
+20210720-20:20:53.888 : Sent ResendRequest FROM: 1 TO: 0
+20210720-20:21:09.078 : MsgSeqNum too high, expecting 1 but received 10
+20210720-20:21:09.079 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20210720-20:21:25.141 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:62203): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210720-20:21:25.149 : Session reset: ResetOnDisconnect
+20210720-20:22:08.250 : Created session
+20210720-20:22:27.552 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:62205
+20210720-20:22:27.552 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210720-20:22:27.601 : Session reset: ResetOnLogon
+20210720-20:22:27.611 : Received logon
+20210720-20:22:27.618 : Responding to logon request
+20210720-20:22:27.618 : MsgSeqNum too high, expecting 1 but received 11
+20210720-20:22:27.620 : Sent ResendRequest FROM: 1 TO: 0
+20210720-20:22:39.117 : MsgSeqNum too high, expecting 1 but received 12
+20210720-20:22:39.118 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20210720-20:23:04.302 : Sent test request TEST
+20210720-20:23:04.306 : MsgSeqNum too high, expecting 1 but received 13
+20210720-20:23:04.306 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20210720-20:23:09.124 : MsgSeqNum too high, expecting 1 but received 14
+20210720-20:23:09.124 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20210720-20:23:39.135 : MsgSeqNum too high, expecting 1 but received 15
+20210720-20:23:39.135 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20210720-20:23:40.137 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Timed out waiting for heartbeat
+20210720-20:23:40.148 : Session reset: ResetOnDisconnect
+20210720-20:24:10.122 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 37160817 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:62206
+20210720-20:24:10.122 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 30 seconds
+20210720-20:24:10.128 : Session reset: ResetOnLogon
+20210720-20:24:10.129 : Received logon
+20210720-20:24:10.129 : Responding to logon request
+20210720-20:24:10.129 : MsgSeqNum too high, expecting 1 but received 16
+20210720-20:24:10.130 : Sent ResendRequest FROM: 1 TO: 0
+20210720-20:24:39.152 : MsgSeqNum too high, expecting 1 but received 17
+20210720-20:24:39.152 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20210720-20:24:46.199 : Sent test request TEST
+20210720-20:24:46.216 : MsgSeqNum too high, expecting 1 but received 18
+20210720-20:24:46.216 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20210720-20:25:09.156 : MsgSeqNum too high, expecting 1 but received 19
+20210720-20:25:09.156 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20210720-20:25:22.257 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Timed out waiting for heartbeat
+20210720-20:25:22.270 : Session reset: ResetOnDisconnect
+20210720-20:26:58.034 : Created session
+20210720-20:27:03.285 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:62211
+20210720-20:27:03.285 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210720-20:27:03.350 : Session reset: ResetOnLogon
+20210720-20:27:03.360 : Received logon
+20210720-20:27:03.365 : Responding to logon request
+20210720-20:33:18.875 : Message 15 Rejected: Invalid MsgType (Field=35)
+20210720-20:34:23.955 : Message 18 Rejected: Invalid MsgType (Field=35)
+20210720-20:41:59.899 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:62211): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210720-20:41:59.908 : Session reset: ResetOnDisconnect
+20210720-20:42:05.704 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 11491252 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:55129
+20210720-20:42:05.704 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 30 seconds
+20210720-20:42:05.711 : Session reset: ResetOnLogon
+20210720-20:42:05.711 : Received logon
+20210720-20:42:05.711 : Responding to logon request
+20210720-20:42:05.712 : MsgSeqNum too high, expecting 1 but received 34
+20210720-20:42:05.714 : Sent ResendRequest FROM: 1 TO: 0
+20210720-20:42:09.572 : MsgSeqNum too high, expecting 1 but received 35
+20210720-20:42:09.572 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20210720-20:42:21.276 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:55129): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210720-20:42:21.282 : Session reset: ResetOnDisconnect
+20210721-11:21:29.204 : Session FIX.4.4:SIMPLE->CLIENT1 already disconnected: Resetting...
+20210721-11:21:29.213 : Session reset: New session
+20210721-11:21:29.217 : Created session
+20210721-11:22:32.073 : Created session
+20210721-11:22:41.815 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 62476613 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:49220
+20210721-11:22:41.815 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-11:22:41.871 : Session reset: ResetOnLogon
+20210721-11:22:41.884 : Received logon
+20210721-11:22:41.888 : Responding to logon request
+20210721-11:23:12.470 : Message 3 Rejected: Required tag missing (Field=453)
+20210721-15:15:36.667 : Created session
+20210721-15:15:45.366 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:62135
+20210721-15:15:45.366 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-15:15:45.421 : Session reset: ResetOnLogon
+20210721-15:15:54.176 : Received logon
+20210721-15:16:18.954 : Responding to logon request
+20210721-15:16:28.286 : Sent test request TEST
+20210721-15:29:23.386 : Created session
+20210721-15:29:24.765 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61630
+20210721-15:29:24.766 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-15:29:24.848 : Session reset: ResetOnLogon
+20210721-15:29:24.869 : Received logon
+20210721-15:29:24.875 : Responding to logon request
+20210721-15:40:24.120 : Created session
+20210721-15:40:25.481 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:64481
+20210721-15:40:25.481 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-15:40:25.577 : Session reset: ResetOnLogon
+20210721-15:40:25.595 : Received logon
+20210721-15:40:43.528 : Responding to logon request
+20210721-15:41:29.304 : Created session
+20210721-15:44:14.879 : Created session
+20210721-15:44:22.233 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:64491
+20210721-15:44:22.234 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-15:44:22.307 : Session reset: ResetOnLogon
+20210721-15:44:22.321 : Received logon
+20210721-15:44:22.330 : Responding to logon request
+20210721-16:03:15.590 : Created session
+20210721-16:03:19.229 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:62944
+20210721-16:03:19.229 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-16:03:19.270 : Session reset: ResetOnLogon
+20210721-16:03:19.283 : Received logon
+20210721-16:03:19.287 : Responding to logon request
+20210721-16:03:19.288 : MsgSeqNum too high, expecting 1 but received 10
+20210721-16:03:19.290 : Sent ResendRequest FROM: 1 TO: 0
+20210721-16:03:22.985 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:62944): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210721-16:03:22.995 : Session reset: ResetOnDisconnect
+20210721-16:03:35.636 : Created session
+20210721-16:03:39.184 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:62945
+20210721-16:03:39.184 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-16:03:39.232 : Session reset: ResetOnLogon
+20210721-16:03:39.244 : Received logon
+20210721-16:03:39.248 : Responding to logon request
+20210721-16:13:17.090 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:62945): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210721-16:13:17.096 : Session reset: ResetOnDisconnect
+20210721-16:23:33.053 : Created session
+20210721-16:23:34.170 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 62476613 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:51124
+20210721-16:23:34.171 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-16:23:34.305 : Session reset: ResetOnLogon
+20210721-16:23:34.322 : Received logon
+20210721-16:23:34.482 : Responding to logon request
+20210721-16:28:31.823 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:51124): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210721-16:28:31.828 : Session reset: ResetOnDisconnect
+20210721-16:30:32.810 : Created session
+20210721-16:30:36.059 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:57254
+20210721-16:30:36.059 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-16:30:36.102 : Session reset: ResetOnLogon
+20210721-16:30:36.111 : Received logon
+20210721-16:30:36.119 : Responding to logon request
+20210721-16:31:20.713 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:57254): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210721-16:31:20.718 : Session reset: ResetOnDisconnect
+20210721-16:32:15.206 : Created session
+20210721-16:32:17.209 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:57259
+20210721-16:32:17.210 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-16:32:17.268 : Session reset: ResetOnLogon
+20210721-16:32:17.276 : Received logon
+20210721-16:32:17.322 : Responding to logon request
+20210721-16:35:29.533 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:57259): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210721-16:35:29.542 : Session reset: ResetOnDisconnect
+20210721-16:39:58.083 : Created session
+20210721-16:39:59.103 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56420
+20210721-16:39:59.103 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-16:39:59.196 : Session reset: ResetOnLogon
+20210721-16:39:59.206 : Received logon
+20210721-16:39:59.317 : Responding to logon request
+20210721-16:41:24.329 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:56420): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210721-16:41:24.335 : Session reset: ResetOnDisconnect
+20210721-18:51:07.067 : Created session
+20210721-18:51:18.850 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 39086322 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:51209
+20210721-18:51:18.850 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-18:51:18.929 : Session reset: ResetOnLogon
+20210721-18:51:18.937 : Received logon
+20210721-18:51:19.040 : Responding to logon request
+20210721-18:51:19.040 : MsgSeqNum too high, expecting 1 but received 2
+20210721-18:51:19.044 : Sent ResendRequest FROM: 1 TO: 0
+20210721-18:51:22.279 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:51209): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210721-18:51:22.287 : Session reset: ResetOnDisconnect
+20210721-18:51:34.238 : Created session
+20210721-18:51:37.165 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:51210
+20210721-18:51:37.165 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-18:51:37.208 : Session reset: ResetOnLogon
+20210721-18:51:37.216 : Received logon
+20210721-18:51:37.266 : Responding to logon request
+20210721-18:53:53.324 : Created session
+20210721-18:53:56.278 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:57564
+20210721-18:53:56.278 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-18:53:56.333 : Session reset: ResetOnLogon
+20210721-18:54:39.214 : Multiple logons/connections for this session are not allowed (127.0.0.1:63482)
+20210721-18:54:41.614 : Received logon
+20210721-18:54:47.301 : Responding to logon request
+20210721-18:55:05.077 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:57564): Uma conexão estabelecida foi anulada pelo software no computador host.
+20210721-19:09:19.971 : Created session
+20210721-19:09:33.495 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 45653674 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:50604
+20210721-19:09:33.495 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-19:09:33.559 : Session reset: ResetOnLogon
+20210721-19:09:33.605 : Received logon
+20210721-19:09:33.610 : Responding to logon request
+20210721-19:14:06.985 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:50604): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210721-19:14:06.990 : Session reset: ResetOnDisconnect
+20210721-20:06:08.050 : Created session
+20210721-20:06:16.054 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61340
+20210721-20:06:16.054 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-20:06:16.123 : Session reset: ResetOnLogon
+20210721-20:06:16.191 : Received logon
+20210721-20:06:16.197 : Responding to logon request
+20210721-20:06:26.353 : Message 2 Rejected: Required tag missing (Field=453)
+20210721-20:58:46.083 : Created session
+20210721-20:58:52.971 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:53080
+20210721-20:58:52.971 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-20:58:53.043 : Session reset: ResetOnLogon
+20210721-20:58:53.104 : Received logon
+20210721-20:58:53.109 : Responding to logon request
+20210721-21:00:05.365 : MsgSeqNum too high, expecting 4 but received 5
+20210721-21:00:07.988 : Sent ResendRequest FROM: 4 TO: 0
+20210721-21:00:17.372 : Sent test request TEST
+20210721-21:00:17.392 : MsgSeqNum too high, expecting 4 but received 6
+20210721-21:00:17.392 : Already sent ResendRequest FROM: 4 TO: 0.  Not sending another.
+20210721-21:02:28.791 : Created session
+20210721-21:02:39.596 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:50071
+20210721-21:02:39.597 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-21:02:39.641 : Session reset: ResetOnLogon
+20210721-21:02:39.681 : Received logon
+20210721-21:02:39.686 : Responding to logon request
+20210721-21:03:01.956 : MsgSeqNum too high, expecting 2 but received 3
+20210721-21:03:05.448 : Sent ResendRequest FROM: 2 TO: 0
+20210721-21:03:29.732 : MsgSeqNum too high, expecting 2 but received 4
+20210721-21:03:29.732 : Already sent ResendRequest FROM: 2 TO: 0.  Not sending another.
+20210721-21:03:31.818 : MsgSeqNum too high, expecting 2 but received 5
+20210721-21:03:31.818 : Already sent ResendRequest FROM: 2 TO: 0.  Not sending another.
+20210721-21:04:19.652 : Sent test request TEST
+20210721-21:04:19.653 : MsgSeqNum too high, expecting 2 but received 6
+20210721-21:04:19.653 : Already sent ResendRequest FROM: 2 TO: 0.  Not sending another.
+20210721-21:04:19.653 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Timed out waiting for heartbeat
+20210721-21:04:19.686 : Session reset: ResetOnDisconnect
+20210721-21:04:32.266 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 42761706 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:50075
+20210721-21:04:32.266 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 30 seconds
+20210721-21:04:32.276 : Session reset: ResetOnLogon
+20210721-21:04:32.277 : Received logon
+20210721-21:04:32.278 : Responding to logon request
+20210721-21:04:32.278 : MsgSeqNum too high, expecting 1 but received 8
+20210721-21:04:32.279 : Sent ResendRequest FROM: 1 TO: 0
+20210721-21:04:34.766 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:50075): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210721-21:04:34.771 : Session reset: ResetOnDisconnect
+20210721-21:04:51.905 : Created session
+20210721-21:04:58.876 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:50077
+20210721-21:04:58.876 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-21:04:58.927 : Session reset: ResetOnLogon
+20210721-21:04:58.979 : Received logon
+20210721-21:04:58.985 : Responding to logon request
+20210721-21:10:19.000 : Created session
+20210721-21:10:23.386 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 62476613 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:63500
+20210721-21:10:23.387 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-21:10:23.431 : Session reset: ResetOnLogon
+20210721-21:10:23.473 : Received logon
+20210721-21:10:23.478 : Responding to logon request
+20210721-21:12:58.024 : Created session
+20210721-21:13:02.301 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:63502
+20210721-21:13:02.301 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-21:13:02.358 : Session reset: ResetOnLogon
+20210721-21:13:02.404 : Received logon
+20210721-21:13:02.409 : Responding to logon request
+20210721-21:23:07.122 : Created session
+20210721-21:23:10.860 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:63075
+20210721-21:23:10.860 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-21:23:10.967 : Session reset: ResetOnLogon
+20210721-21:23:11.049 : Received logon
+20210721-21:23:11.054 : Responding to logon request
+20210721-21:25:42.945 : Created session
+20210721-21:25:49.300 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:51653
+20210721-21:25:49.300 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-21:25:49.346 : Session reset: ResetOnLogon
+20210721-21:25:49.408 : Received logon
+20210721-21:25:49.413 : Responding to logon request
+20210721-21:30:01.559 : Created session
+20210721-21:30:05.135 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:51660
+20210721-21:30:05.135 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-21:30:05.186 : Session reset: ResetOnLogon
+20210721-21:30:05.188 : Received logon
+20210721-21:30:05.202 : Responding to logon request
+20210721-21:49:26.318 : Created session
+20210721-21:49:27.352 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:53146
+20210721-21:49:27.352 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-21:49:27.493 : Session reset: ResetOnLogon
+20210721-21:49:27.498 : Received logon
+20210721-21:49:27.517 : Responding to logon request
+20210721-21:50:22.172 : Created session
+20210721-21:50:24.809 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12547953 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:53148
+20210721-21:50:24.810 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-21:50:24.889 : Session reset: ResetOnLogon
+20210721-21:50:24.892 : Received logon
+20210721-21:50:24.906 : Responding to logon request
+20210721-21:51:56.973 : Created session
+20210721-21:51:58.668 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:53149
+20210721-21:51:58.668 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-21:51:58.733 : Session reset: ResetOnLogon
+20210721-21:51:58.738 : Received logon
+20210721-21:51:58.746 : Responding to logon request
+20210721-21:53:40.200 : Created session
+20210721-21:53:42.903 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56867
+20210721-21:53:42.904 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-21:53:42.994 : Session reset: ResetOnLogon
+20210721-21:53:42.996 : Received logon
+20210721-21:53:43.005 : Responding to logon request
+20210721-21:55:43.896 : Created session
+20210721-21:55:46.338 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12547953 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:49402
+20210721-21:55:46.338 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-21:55:46.393 : Session reset: ResetOnLogon
+20210721-21:55:46.397 : Received logon
+20210721-21:55:46.406 : Responding to logon request
+20210721-21:56:44.992 : Created session
+20210721-21:56:46.350 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:49405
+20210721-21:56:46.351 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-21:56:46.448 : Session reset: ResetOnLogon
+20210721-21:56:46.453 : Received logon
+20210721-21:56:46.487 : Responding to logon request
+20210721-22:45:32.082 : Created session
+20210721-22:45:34.048 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:52366
+20210721-22:45:34.048 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-22:45:34.130 : Session reset: ResetOnLogon
+20210721-22:45:34.132 : Received logon
+20210721-22:45:34.151 : Responding to logon request
+20210721-22:51:59.117 : Created session
+20210721-22:52:00.804 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:54498
+20210721-22:52:00.805 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-22:52:01.058 : Session reset: ResetOnLogon
+20210721-22:52:01.069 : Received logon
+20210721-22:52:01.114 : Responding to logon request
+20210721-22:55:02.649 : Created session
+20210721-22:55:06.143 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:57739
+20210721-22:55:06.143 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-22:55:06.262 : Session reset: ResetOnLogon
+20210721-22:55:06.265 : Received logon
+20210721-22:55:06.280 : Responding to logon request
+20210721-22:56:02.502 : Created session
+20210721-22:56:04.888 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 62476613 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:63516
+20210721-22:56:04.888 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-22:56:04.950 : Session reset: ResetOnLogon
+20210721-22:56:04.952 : Received logon
+20210721-22:56:04.965 : Responding to logon request
+20210721-23:03:03.472 : Created session
+20210721-23:03:05.820 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:50261
+20210721-23:03:05.825 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-23:03:05.904 : Session reset: ResetOnLogon
+20210721-23:03:05.918 : Received logon
+20210721-23:03:05.945 : Responding to logon request
+20210721-23:16:03.701 : Created session
+20210721-23:16:07.607 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 62476613 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:58713
+20210721-23:16:07.608 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-23:16:07.662 : Session reset: ResetOnLogon
+20210721-23:16:07.667 : Received logon
+20210721-23:16:07.705 : Responding to logon request
+20210721-23:16:39.413 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210721-23:16:39.416 : Reject sent for Message: 2 Reason:Unsupported Message Type
+20210721-23:16:48.434 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:58713): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210721-23:18:18.442 : Created session
+20210721-23:18:21.575 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 62476613 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:58103
+20210721-23:18:21.575 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-23:18:21.666 : Session reset: ResetOnLogon
+20210721-23:18:21.670 : Received logon
+20210721-23:18:21.687 : Responding to logon request
+20210721-23:21:29.790 : Created session
+20210721-23:21:32.174 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:64548
+20210721-23:21:32.174 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-23:21:32.272 : Session reset: ResetOnLogon
+20210721-23:21:32.279 : Received logon
+20210721-23:21:32.298 : Responding to logon request
+20210721-23:25:48.535 : Created session
+20210721-23:25:50.013 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:65286
+20210721-23:25:50.014 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-23:25:50.075 : Session reset: ResetOnLogon
+20210721-23:25:50.077 : Received logon
+20210721-23:25:50.089 : Responding to logon request
+20210721-23:30:30.663 : Created session
+20210721-23:30:35.094 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:55445
+20210721-23:30:35.094 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-23:30:35.145 : Session reset: ResetOnLogon
+20210721-23:30:35.147 : Received logon
+20210721-23:30:35.162 : Responding to logon request
+20210721-23:36:50.764 : Created session
+20210721-23:36:52.480 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56644
+20210721-23:36:52.480 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210721-23:36:52.537 : Session reset: ResetOnLogon
+20210721-23:36:52.539 : Received logon
+20210721-23:36:52.547 : Responding to logon request
+20210721-23:43:36.853 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Timed out waiting for heartbeat
+20210721-23:43:36.860 : Session reset: ResetOnDisconnect
+20210722-00:45:55.634 : Created session
+20210722-00:45:56.987 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:54219
+20210722-00:45:56.988 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210722-00:45:57.093 : Session reset: ResetOnLogon
+20210722-00:45:57.095 : Received logon
+20210722-00:45:57.110 : Responding to logon request
+20210722-00:53:36.410 : Created session
+20210722-00:53:40.621 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:62363
+20210722-00:53:40.622 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210722-00:53:40.677 : Session reset: ResetOnLogon
+20210722-00:53:40.679 : Received logon
+20210722-00:53:40.690 : Responding to logon request
+20210722-15:20:46.016 : Created session
+20210722-15:21:05.427 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 20974680 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:52866
+20210722-15:21:05.427 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210722-15:21:05.506 : Session reset: ResetOnLogon
+20210722-15:21:05.508 : Received logon
+20210722-15:21:05.522 : Responding to logon request
+20210722-15:31:29.013 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:52866): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210722-15:31:29.024 : Session reset: ResetOnDisconnect
