@@ -1,6 +1,7 @@
 ﻿using System;
 using QuickFix;
 using log4net;
+using Newtonsoft.Json;
 
 namespace AppQuickFix
 {
@@ -29,25 +30,31 @@ namespace AppQuickFix
             char[] delimiterChars = { '=', '\u0001' };
             string[] msgSplit = message.ToString().Split(delimiterChars);
 
-            var result = "BeginString: " + msgSplit[1] + "\n" +
-                         "BodyLength: " + msgSplit[3] + "\n" +
-                         "MsgType: " + msgSplit[5] + "\n" +
-                         "MsgSeqNun: " + msgSplit[7] + "\n" +
-                         "SenderCompID: " + msgSplit[9] + "\n" +
-                         "SendingTime: " + msgSplit[11] + "\n" +
-                         "TargetCompID: " + msgSplit[13] + "\n" +
-                         "ClOrdID: " + msgSplit[15] + "\n" +
-                         "HandlInst: " + msgSplit[17] + "\n" +
-                         "OrderQty: " + msgSplit[19] + "\n" +
-                         "OrdType: " + msgSplit[21] + "\n" +
-                         "Price: " + msgSplit[23] + "\n" +
-                         "Side: " + msgSplit[25] + "\n" +
-                         "Symbol: " + msgSplit[27] + "\n" +
-                         "TransactTime: " + msgSplit[29] + "\n" +
-                         "NoPartyIDs: " + msgSplit[31] + "\n" +
-                         "CheckSum: " + msgSplit[33] + "\n";
+            var valores = new TagDescription
+            {
+                BeginString = msgSplit[1],
+                BodyLength = msgSplit[3],
+                MsgType = msgSplit[5],
+                MsgSeqNun = msgSplit[7],
+                SenderCompID = msgSplit[9],
+                SendingTime = msgSplit[11],
+                TargetCompID = msgSplit[13],
+                ClOrdID = msgSplit[15],
+                HandlInst = msgSplit[17],
+                OrderQty = msgSplit[19],
+                OrdType = msgSplit[21],
+                Price = msgSplit[23],
+                Side = msgSplit[25],
+                Symbol = msgSplit[27],
+                TransactTime = msgSplit[29],
+                NoPartyIDs = msgSplit[31],
+                CheckSum = msgSplit[33],
+            };
 
-            logger.Debug("FromApp: \n" + result);
+            valores = TagDescription.Description(valores);
+            var output = JsonConvert.SerializeObject(valores, Formatting.Indented);
+
+            logger.Debug("FromApp: \n" + output);
         }
 
         public void ToAdmin(QuickFix.Message message, SessionID sessionID)
